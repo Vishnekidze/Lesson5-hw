@@ -13,6 +13,8 @@
 		DA59B41026BD371500BF946D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA59B40E26BD371500BF946D /* Main.storyboard */; };
 		DA59B41226BD371700BF946D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA59B41126BD371700BF946D /* Assets.xcassets */; };
 		DA59B41526BD371700BF946D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA59B41326BD371700BF946D /* LaunchScreen.storyboard */; };
+		DA59B41D26C137C100BF946D /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA59B41C26C137C100BF946D /* Beer.swift */; };
+		DA59B41F26C1385100BF946D /* BeerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA59B41E26C1385100BF946D /* BeerBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DA59B41126BD371700BF946D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA59B41426BD371700BF946D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA59B41626BD371700BF946D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA59B41C26C137C100BF946D /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		DA59B41E26C1385100BF946D /* BeerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		DA59B40726BD371500BF946D /* Lesson5 hw */ = {
 			isa = PBXGroup;
 			children = (
+				DA59B41E26C1385100BF946D /* BeerBar.swift */,
+				DA59B41C26C137C100BF946D /* Beer.swift */,
 				DA59B40826BD371500BF946D /* AppDelegate.swift */,
 				DA59B40A26BD371500BF946D /* SceneDelegate.swift */,
 				DA59B40C26BD371500BF946D /* ViewController.swift */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA59B41F26C1385100BF946D /* BeerBar.swift in Sources */,
 				DA59B40D26BD371500BF946D /* ViewController.swift in Sources */,
+				DA59B41D26C137C100BF946D /* Beer.swift in Sources */,
 				DA59B40926BD371500BF946D /* AppDelegate.swift in Sources */,
 				DA59B40B26BD371500BF946D /* SceneDelegate.swift in Sources */,
 			);
